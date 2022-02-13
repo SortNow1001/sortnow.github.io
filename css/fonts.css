@@ -1,0 +1,13 @@
+@font-face {
+  font-family:'MyriadPro-Regular';
+  src: url('../fonts/MMyriadPro-Regular.eot'),
+  url('../fonts/MyriadPro-Regular.woff') format('woff'), 
+  url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family:'segoe-uil';
+  src: url('../fonts/Msegoe-uil.eot'),
+  url('../fonts/segoe-uil.woff') format('woff'), 
+  url('../fonts/segoe-uil.ttf') format('truetype');
+}

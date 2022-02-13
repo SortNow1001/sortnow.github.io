@@ -1,0 +1,692 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,width=device-width,user-scalable=no">
+  <title>Sort Now</title>
+  <link rel="icon" href="images/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+  <header>
+	<div class="container-fluid">
+  <div class="header-main">
+		<a href="index.html" class="logo-section">
+		  <div class="logoimg"></div>
+		</a>
+		<div class="menu-section">
+		  <div class="header-menu">
+			<ul>
+			  <li><a href="javascript:void(0);" data-scrollmenu="home">Home</a></li>
+			  <li><a href="javascript:void(0);" data-scrollmenu="features">Features</a></li>
+			  <li><a href="https://sortNow.blog/" target="blank">Blog</a></li>
+			  <li><a href="javascript:void(0);" data-scrollmenu="SortNowWorking">How Sort Now Works</a></li>
+			  <li><a href="javascript:void(0);" data-scrollmenu="contactus">Contact us</a></li>
+			  <!--<li class="request-li"><span class="request-demo">LOGIN</span></li>
+			  <li class="login-li"><span class="btn-login">SIGNUP</span></li> -->
+			</ul>
+		  </div>
+		  <div class="mobmenu">
+			<span class="border border1"></span>
+			<span class="border border2"></span>
+			<span class="border border3"></span>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </header>
+
+  <div class="topbanner" id="home">
+	<div id="carousel-topbanner" class="carousel slide" data-ride="carousel">
+	  <div class="carousel-inner topbanner-inner">
+		<div class="item active" style="background-image:url(images/hero-pic1.jpg);">
+		  <div class="common-container">
+			<div class="banner-content">
+			  <div class="banner-contentin">
+				
+			  
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<div class="item" style="background-image:url(images/hero-pic2.jpg);">
+		  <div class="common-container">
+			<div class="banner-content">
+			  <div class="banner-contentin">
+			  
+				
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<div class="item" style="background-image:url(images/hero-pic3.jpg);">
+		  <div class="common-container">
+			<div class="banner-content">
+			  <div class="banner-contentin">
+			  
+				<!--	<a href="javascript:void(0);" class="slid-button" data-scrollmenu="requestDemo">Register With Us</a> -->
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+	  <a class="left carousel-control topbanner-control" href="#carousel-topbanner" role="button" data-slide="prev">
+		<span class="previcon"></span>
+	  </a>
+	  <a class="right carousel-control topbanner-control" href="#carousel-topbanner" role="button" data-slide="next">
+		<span class="nexticon"></span>
+	  </a>
+	</div>
+
+	<div class="banner-bottom">
+	  <div class="banner-bottomin">
+		<span class="download-bottom">Download Today</span>
+		
+		<div class="store-box">
+		  <a href="https://play.google.com" target="blank"><img src="images/android-icon.png"></a>
+		</div>
+		<div class="store-box">
+		  <a href="https://www.apple.com/in/app-store/" target="blank"><img src="images/apple-icon.png"></a>
+		</div>
+		<div class="requst-linkbox">
+		  <div class="input-group">
+			<input type="text" class="form-control" placeholder="Your mobile number">
+
+			<span class="input-group-btn">
+			  <button class="btn btn-requstlink" type="button">Request Link</button>
+			 
+			</span>
+		  </div>
+		</div>
+		<div class="store-box">
+		<!--  <a href="javascript:void(0);" class="slid-button" data-scrollmenu="requestDemo">Register With Us</a>-->
+		</div>
+	  </div>
+	</div>
+  </div>
+
+  <section class="video-sec">
+	<div class="container-fluid">
+	  <div class="row">
+		<div class="col-md-9 padd0">
+		  <div class="handimg">
+			<img src="images/video-hand-img.png">
+		  </div>
+		  <div class="handimg-text">
+			<div class="handimg-textin">
+			  <div class="handimg-textin-cell">
+				<h2>Sort your schedule with Sort Now.</h2>
+				<p> Your valuable time is very important. There is no need to wait for your turn, select the slot using Sort Now we'll wait for you.</p>
+				<div class="video-play" data-toggle="modal" data-target=""><!--#videoModal-->
+				  <span class="btn-video-play"><i class="fa fa-play"></i></span>Watch the video
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-3 padd0 text-center">
+		  <div class="right-img">
+			<img src="images/video-right-img.png">
+		  </div>
+		</div>
+	  </div>
+	</div>
+
+	<div class="modal fade custmodal" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel">
+	  <div class="modal-dialog" role="document">
+		<div class="modal-content">
+		  <div class="modal-body">
+			<iframe width="100%" height="315" src="https://www.youtube.com/embed/H9gHTsfUwBQ?ecver=1" frameborder="0" allowfullscreen></iframe>
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </section>
+
+
+
+<section class="how-sortNow" id="SortNowWorking">
+	<div class="tab-container">
+	  <div class="row">
+		<div class="col-sm-12 text-center">
+		  <h1>How Sort Now Works?</h1>
+		</div>
+		<div class="col-sm-12">
+		  <div id="carousel-testimonial" class="carousel slide testimonial-carousel" data-ride="carousel">
+			<ol class="carousel-indicators testimonial-indicators">
+			  <li data-target="#carousel-testimonial" data-slide-to="0" class="active"></li>
+			  <li data-target="#carousel-testimonial" data-slide-to="1"></li>
+			  <li data-target="#carousel-testimonial" data-slide-to="2"></li>
+			  <li data-target="#carousel-testimonial" data-slide-to="3"></li>
+			  <li data-target="#carousel-testimonial" data-slide-to="4"></li>
+			  <li data-target="#carousel-testimonial" data-slide-to="5"></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+			  <div class="item active">
+				<div class="testimonial-content">
+				  <div class=""><!--testimonial-imgbox-->
+					<img src="images/SortNow.png">
+				  </div>
+				
+			<p style="color:black">Sort Now is a application where customers can make an appointment at the salon directly. It is applicable for both males and females. It provides the flexibility to choose a time slot that brings efficiency, customer satisfaction, and more importantly zero waiting time.
+</p>
+				</div>
+			  </div>
+			  <div class="item">
+				<div class="testimonial-content">
+				  <div class="">
+					<img src="images/ListOfSalons.png">
+				  </div>
+				 
+				  <p>Sort Now will show you the list of nearby salons or selected location salons, where customers can sort the salons based on rating, distance, and cost.</p>
+				</div>
+			  </div>
+			  <div class="item">
+				<div class="testimonial-content">
+				  <div class="">
+					<img src="images/particularSalon.png">
+				  </div>
+				 
+				 <p>Sort Now will show you the list of services offered by the selected salon. Customers can add the desired services in the cart.</p>
+				</div>
+			  </div>
+			  <div class="item">
+				<div class="testimonial-content">
+				  <div class="">
+					<img src="images/SelectDateAndTime.png">
+				  </div>
+				
+				  <p>Sort Now provides the flexibility to choose a current date or the future date and available slots along with all the available barbers based on rating.</p>
+				</div>
+			  </div>
+
+			   <div class="item">
+				<div class="testimonial-content">
+				  <div class="">
+					<img src="images/SelectPaymentMode.png">
+				  </div>
+				  <p>Sort Now provides the flexibility to choose a mode of payment. Select any payment option and confirm the booking. </p>
+				  
+				</div>
+			  </div>
+
+			   <div class="item">
+				<div class="testimonial-content">
+				  <div class="">
+					<img src="images/BookingConfirmation.png">
+				  </div>
+				  <h3>Sort Now will send you the booking confirmation email along with the mobile message. </h3>
+				  
+				</div>
+			  </div>
+
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </section>
+
+
+
+
+
+ <!-- <section class="how-sortNow">
+	<div class="container-fluid">
+	  <div class="row">
+		<div class="col-sm-12 text-center">
+		  <h1>How Sort Now Works?</h1>
+		</div>
+	  </div>
+	  <div class="row">
+		<div class="col-md-6">
+		  <div class="how-sortNow-imgbox">
+			<img src="images/how-zuoer-img.png">
+		  </div>
+		</div>
+		<div class="col-md-6">
+		  <div class="how-sortNow-cont">
+			<div class="how-sortNow-list">
+			  <span class="fa fa-sign-in"></span>
+			  <h3>Sign-up and register your business</h3>
+			  <p>Simple process with step by step guidance to sign-up and register your business.</p>
+			</div>
+			<div class="how-sortNow-list">
+			  <span class="fa fa-user-plus"></span>
+			  <h3>Import your customers</h3>
+			  <p>Import your customers efficiently from your phone book, excel or your favorite CRM tool.</p>
+			</div>
+			<div class="how-sortNow-list">
+			  <span class="fa fa-users"></span>
+			  <h3>Import your employees</h3>
+			  <p>Add new employees or import from an existing list.</p>
+			</div>
+
+			<div class="how-sortNow-list">
+			  <span class="fa fa-clock-o"></span>
+			  <h3>Schedule work orders and go completely paperless on all business operations</h3>
+			  <p>Comprehensive field service solution that connects every facet of your business into one easy-to-use system.</p>
+			</div>
+			<div class="how-sortNow-list">
+			 <span class="fa fa-truck"></span>
+			  <h3>Track &amp; manage field workforce</h3>
+			  <p>State of art GPS integration to enable you to track, monitor and manage the field workforce.</p>
+			</div>
+			<div class="how-sortNow-list lastList">
+			  <span class="fa fa-smile-o"></span>
+			  <h3>Improve field workforce utilization, reduce costs &amp; grow your business</h3>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </section>  -->
+
+  <section class="feature-sec" id="features">
+	<div class="common-container">
+	  <div class="col-sm-12 text-center">
+		<h1>Features</h1>
+	  </div>
+	  <div class="col-sm-12">
+		<div class="feature-tab">
+		  <ul class="nav nav-tabs nav-justified" role="tablist">
+			<li role="presentation" class="active"><a href="#scheduling-tab" role="tab" data-toggle="tab" ><span>Sort Now </span></a></li>
+			<li role="presentation"><a href="#work-order" role="tab" data-toggle="tab"><span>Nearby Salons</a></span></li>
+			<li role="presentation"><a href="#team-management" role="tab" data-toggle="tab"><span>Selected Salon</span></a></li>
+			<li role="presentation"><a href="#timesheet-management" role="tab" data-toggle="tab"><span>Select Date & Time</span></a></li>
+			<li role="presentation"><a href="#estimates-tab" role="tab" data-toggle="tab"><span>Mode Of Payment</span></a></li>
+			<li role="presentation"><a href="#customer-tab" role="tab" data-toggle="tab"><span>Booking Confirmation</span></a></li>
+			
+		  </ul>
+		  <div class="tab-content">
+			<div role="tabpanel" class="tab-pane fade in active" id="scheduling-tab">
+			  <div class="panel-body">
+				<div class="col-md-8 col-sm-6">
+				  <div class="jobtab-content">
+					<h2>Scheduling made easy</h2>
+					<p>Sort Now is a platform where users can book an appointment at the salon directly.
+		</p>
+					<!-- <a href="#" class="btn-learnmore">Learn More ...</a> -->
+				  </div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+				  <div class="jobimg-box">
+					<img src="images/SortNow.png">
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<div role="tabpanel" class="tab-pane fade" id="work-order">
+			  <div class="panel-body">
+				<div class="col-md-8 col-sm-6">
+				  <div class="jobtab-content">
+					<h2>Manage time efficiently</h2>
+					<p>	Sort Now provides the list of nearby salons or selected locations nearby salons.
+			</p>
+					<!-- <a href="#" class="btn-learnmore">Learn More ...</a> -->
+				  </div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+				  <div class="jobimg-box">
+					<img src="images/ListOfSalons.png">
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<div role="tabpanel" class="tab-pane fade" id="team-management">
+			  <div class="panel-body">
+				<div class="col-md-8 col-sm-6">
+				  <div class="jobtab-content">
+					<h2> Satisfaction</h2>
+					<p>You can select any salon and check the list of services offered by the salon and add the desired services to the cart.
+			</p>
+					<!-- <a href="#" class="btn-learnmore">Learn More ...</a> -->
+				  </div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+				  <div class="jobimg-box">
+					<img src="images/particularSalon.png">
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<div role="tabpanel" class="tab-pane fade" id="timesheet-management">
+			  <div class="panel-body">
+				<div class="col-md-8 col-sm-6">
+				  <div class="jobtab-content">
+					<h2>Get visibility and manage your your valuable time</h2>
+					<p>Select a current date or the future date we'll show the available slots along with rated barbers. Choose any available slot and barber.
+			</p>
+					<!-- <a href="#" class="btn-learnmore">Learn More ...</a> -->
+				  </div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+				  <div class="jobimg-box">
+					<img src="images/SelectDateAndTime.png">
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<div role="tabpanel" class="tab-pane fade" id="estimates-tab">
+			  <div class="panel-body">
+				<div class="col-md-8 col-sm-6">
+				  <div class="jobtab-content">
+					<h2>Invoices and payments</h2>
+					<p>Sort Now provides the flexibility to choose a mode of payment. Select any payment option and confirm the booking. 
+			</p>
+					<!-- <a href="#" class="btn-learnmore">Learn More ...</a> -->
+				  </div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+				  <div class="jobimg-box">
+					<img src="images/SelectPaymentMode.png">
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<div role="tabpanel" class="tab-pane fade" id="customer-tab">
+			  <div class="panel-body">
+				<div class="col-md-8 col-sm-6">
+				  <div class="jobtab-content">
+					<h2>Confirmation email</h2>
+					<p>Sort Now will send you the booking confirmation email along with the mobile message.</p>
+					<!-- <a href="#" class="btn-learnmore">Learn More ...</a> -->
+				  </div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+				  <div class="jobimg-box">
+					<img src="images/BookingConfirmation.png">
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<!--	<div role="tabpanel" class="tab-pane fade" id="analytic-insight">
+			  <div class="panel-body">
+				<div class="col-md-8 col-sm-6">
+				  <div class="jobtab-content">
+					<h2>Transform data into intelligence</h2>
+					<p>Rich reports, dashboards enable you to gain the 360 degree of your business and use KPIs to proactively monitor the health of the business. Advanced analytics powered by Machine Learning to transform your data into intelligence to grow your business.</p>
+					<!-- <a href="#" class="btn-learnmore">Learn More ...</a> -->
+					<!--  </div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+				  <div class="jobimg-box">
+					<img src="images/tab-analytics-insights.png">
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<div role="tabpanel" class="tab-pane fade" id="integrations-tab">
+			  <div class="panel-body">
+				<div class="col-md-8 col-sm-6">
+				  <div class="jobtab-content">
+					<h2>Open platform</h2>
+					<p>Integration with any line of business or third party applications. Rich APIs and Webhooks enable easy integration with almost any applications that have some sort of a programmatic interface.</p>
+					<!-- <a href="#" class="btn-learnmore">Learn More ...</a> -->
+				<!--  </div>
+				</div>	
+				<div class="col-md-4 col-sm-6">
+				  <div class="jobimg-box">
+					<img src="images/tab-integrations.png">
+				  </div>
+				</div>-->
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </section>
+
+  <section class="modernize-sec">
+	<div class="container">
+	  <div class="row">
+		<div class="col-sm-12 text-center">
+		  <h1>Modernize and Transform your schedule with Sort Now</h1>
+		  <p>Customers using Sort Now are operating more efficiently, saving costs, improving customer satisfaction and growing business.</p>
+		</div>
+	  </div>
+	  <div class="row mt30">
+		<div class="col-sm-3 col-xs-6">
+		  <div class="modernize-box">
+			<div class="modernize-img">
+			  <img src="images/modernize1.png">
+			</div>
+			<div class="modernize-heading">
+			  
+			  <h4>Online Booking</h4>
+			</div>
+		  </div>
+		</div>
+		<div class="col-sm-3 col-xs-6">
+		  <div class="modernize-box">
+			<div class="modernize-img">
+			  <img src="images/modernize2.png">
+			</div>
+			<div class="modernize-heading">
+			<h4>Zero Waiting Time</h4>
+			 
+			</div>
+		  </div>
+		</div>
+		<div class="col-sm-3 col-xs-6">
+		  <div class="modernize-box">
+			<div class="modernize-img">
+			  <img src="images/modernize3.png">
+			</div>
+			<div class="modernize-heading">
+			  <h4>Digital Portfolio</h4>
+
+			</div>
+		  </div>
+		</div>
+		<div class="col-sm-3 col-xs-6">
+		  <div class="modernize-box">
+			<div class="modernize-img">
+			  <img src="images/modernize4.png">
+			</div>
+			<div class="modernize-heading">
+			  <h4>Doorstep Services</h4>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </section>
+
+ <!-- <section class="testimonial-sec" id="customer">
+	<div class="tab-container">
+	  <div class="row">
+		<div class="col-sm-12 text-center">
+		  <h1>What our users think about Sort</h1>
+		</div>
+		<div class="col-sm-12">
+		  <div id="carousel-testimonial" class="carousel slide testimonial-carousel" data-ride="carousel">
+			<ol class="carousel-indicators testimonial-indicators">
+			  <li data-target="#carousel-testimonial" data-slide-to="0" class="active"></li>
+			  <li data-target="#carousel-testimonial" data-slide-to="1"></li>
+			  <li data-target="#carousel-testimonial" data-slide-to="2"></li>
+			  <li data-target="#carousel-testimonial" data-slide-to="3"></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+			  <div class="item active">
+				<div class="testimonial-content">
+				  <div class="testimonial-imgbox">
+					<img src="images/testimonial-img1.jpg">
+				  </div>
+				  <h3>A Ramesh (Glinkem)</h3>
+				  <p>“Sort has streamlined all my estimates, payments and invoicing processes. It has increased my productivity and helped improve the customer relationship. I love this product.”</p>
+				</div>
+			  </div>
+			  <div class="item">
+				<div class="testimonial-content">
+				  <div class="testimonial-imgbox">
+					<img src="images/testimonial-img1.jpg">
+				  </div>
+				  <h3>Sudarshan (TMV Corporation)</h3>
+				  <p>“Sort has enabled me to schedule and dispatch jobs to all my employees in a very efficient manner. I can track the calendars of all my field employees and do smarter scheduling. I also get real-time information of all the job details and stay up-to-date without leaving my office.”</p>
+				</div>
+			  </div>
+			  <div class="item">
+				<div class="testimonial-content">
+				  <div class="testimonial-imgbox">
+					<img src="images/testimonial-img1.jpg">
+				  </div>
+				  <h3>Shankar (Freelance Electrician)</h3>
+				  <p>“I was managing my business with 8 different tools. With Sort, I have got an all in one solution that helps me to better engage with customers and automate all my business processes. I no longer have to keep track of the tools and paperwork and can run my business peacefully.”</p>
+				</div>
+			  </div>
+			  <div class="item">
+				<div class="testimonial-content">
+				  <div class="testimonial-imgbox">
+					<img src="images/testimonial-img1.jpg">
+				  </div>
+				  <h3>Charles (APEX Infra)</h3>
+				  <p>“I have just started using Sort few days back and loving the experience so far. I save at least 2 hours of my time per day with Sort. All my notes, estimates, invoice and payments are processed in the job site. I don’t have to deal with any additional paperwork.”</p>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </section>-->
+  <hr class="testimonial">
+
+  <section class="contact-sec" id="contactus">
+	<div class="container">
+	  <div class="row">
+		<div class="">
+		  <div class="contact-detail">
+			<span class="bottom-shadow"></span>
+			<img src="images/logo.png" class="contact-logo">
+			<h2 style="text-align:center;">Let's Rearrange The World</h2>
+		
+			<div class="detail-list">
+			  <span class="leftdetail">For Business Inquiries</span>
+			  <span class="rightdetail"><a href="mailto:support@sortnow.com" class="mailsort">support@sortnow.com</a></span>
+			</div>
+			<div class="detail-list">
+			  <span class="leftdetail" >Call Us Now</span>
+			  <span class="rightdetail">+91 704 9966 161</span>
+			  <span class="leftdetail">Or</span>
+			  <span class="rightdetail">+91 834 9518 100</span>
+			</div>
+		  </div>
+		</div>
+		<!--<div class="col-md-8 col-sm-7">
+		  <div class="contact-form">
+			<h1>Book your personalized demo</h1>
+			<p>Want to start a project or just say hi? We love to engage in small talk, so why not drop us a note. We’ll get back to you.</p>
+			<form class="form-horizontal">
+			  <div class="form-group">
+				<div class="col-sm-6">
+				  <input type="text" name="name" class="form-control" placeholder="Name">
+				</div>
+				<div class="col-sm-6">
+				  <input type="email" name="email" class="form-control" placeholder="Email ID">
+				</div>
+			  </div>
+			  <div class="form-group">
+				<div class="col-sm-6">
+				  <input type="text" name="phone" class="form-control" placeholder="Phone Number">
+				</div>
+				<div class="col-sm-6">
+				  <input type="text" name="comp-name" class="form-control" placeholder="Company Name">
+				</div>
+			  </div>
+			  <div class="form-group">
+				<div class="col-sm-12">
+				  <textarea class="form-control" placeholder="Comment"></textarea>
+				</div>
+			  </div>
+			  <div class="form-group">
+				<div class="col-sm-12">
+				  <input type="submit" class="btn btn-block btn-submit" value="Book Live Demo">
+				</div>
+			  </div>
+			</form>
+		  </div>
+		</div>>-->
+	  </div>
+	</div>
+  </section>
+
+  <footer>
+	<div class="container-fluid">
+	  <div class="row">
+		<div class=" col-md-6 padd0">
+		  <div class="footer-left">
+			<div class="footer-dtable">
+			  <div class="footer-dtable-cell">
+				<div class="footer-menu">
+				
+				  <ul>
+			  <li><a href="javascript:void(0);" data-scrollmenu="home">Home</a></li>
+			  <li><a href="javascript:void(0);" data-scrollmenu="features">Features</a></li>
+			  <li><a href="https://sortNow.blog/" target="blank">Blog</a></li>
+			  <li><a href="javascript:void(0);" data-scrollmenu="SortNowWorking">How Sort Now Works</a></li>
+			  <li><a href="javascript:void(0);" data-scrollmenu="contactus">Contact us</a></li>
+			
+			</ul>
+				</div>
+				<small class="copyright">© 2022, All Rights Reserved.</small>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-0 padd0">
+		  <div class="footer-right">
+			<div class="socialbox">
+			  <div class="footer-dtable">
+				<div class="footer-dtable-cell">
+				  <span>Follow Us  On</span>
+				  <ul>
+					<li><a href="#" target="blank"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#" target="blank"><i class="fa fa-youtube"></i></a></li>
+					 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+					<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+				  </ul>
+				</div>
+			  </div>
+			</div>
+			</div>
+			</div>
+			
+			<div class="download-app">
+			  <div class="download-appbox">
+				<div class="footer-dtable">
+				  <div class="footer-dtable-cell">
+					<div class="skewbox">
+					  <div class="appbox">
+						<span style="color:white">Download Today</span>
+						<a href="file:///F:/Akshay%20Pathak%20data/Drive%201/website/Sort%20Now/Sort%20Now/HTML/404.html" target="blank"><img src="images/android-icon.png"></a>
+					  <a href="file:///F:/Akshay%20Pathak%20data/Drive%201/website/Sort%20Now/Sort%20Now/HTML/404.html" target="blank"><img src="images/apple-icon.png"></a>
+					
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </footer>
+
+  <script src="js/3.1.1-jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/common.js"></script>
+</body>
+</html>
